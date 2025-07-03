@@ -118,11 +118,10 @@ fn pedir_datos(){
 //main
 fn main() {
     println!("Bienvenido al sistema interactivo");
-    println!("Si no aparece la primera pregunta, presiona Enter para comenzar...");
+    println!("Presiona Enter para comenzar...");
     let mut dummy = String::new();
     io::stdin().read_line(&mut dummy).unwrap();
 
     pedir_datos();
 }
-
 
